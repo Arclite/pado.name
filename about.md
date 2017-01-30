@@ -5,7 +5,7 @@ permalink: /about/
 highlight: about
 ---
 
-**Updates coming soon. Until then, enjoy this heavily-corrected version of the original.**
+*Updates coming ~~soon~~ (**Update:** Eventually.). Until then, enjoy this heavily-corrected version of the original.*
 
 ## About Me
 
