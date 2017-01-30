@@ -4,7 +4,9 @@ date: 2017-01-29 12:00:00 -0800
 title: Recording iOS Simulator Video
 ---
 
-At the latest meeting of the Redmond Xcoders, there was a talk by [Lori Hill](https://mobile.twitter.com/lorilhill7) about creating App Preview videos. During the Q&A period after her talk, questions were raised about recording such a video from the iOS Simulator rather than an actual device. The first few comments were about doing an actual screen capture of the simulator, and recording the simulator _directly_ was an option it seemed most people didn't know about. I've attempted to find out what I can about the subject and put it somewhere that might be helpful to Google users in the future.
+At the latest meeting of the Redmond Xcoders, there was a talk by [Lori Hill](https://mobile.twitter.com/lorilhill7) about creating App Preview videos. During the Q&A period after her talk, questions were raised about recording such a video from the iOS Simulator rather than an actual device.
+
+The first few comments were about doing an actual screen capture of the simulator, and recording the simulator _directly_ was an option it seemed most people didn't know about. I've attempted to find out what I can about the subject and put it somewhere that might be helpful to Google users in the future.
 
 **Disclaimer**: It is unclear whether these videos can be used for App Preview. Some differences between device recordings and simulator recordings are discussed below. Apple's [App Preview documentation](https://developer.apple.com/support/app-previews/) has no real stance on the matter; while they discuss how to record with a physical device, they don't explicitly state that a device _must_ be used. If you attempt this and find out one way or another, please e-mail me and I will update this post.
 
