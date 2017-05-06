@@ -2,9 +2,12 @@
 layout: post
 title: Your App’s Other UI
 date: 2016-12-15
+excerpt_separator: <!--more-->
 ---
 
 Every iOS app has two user interfaces. These interfaces are equally important in delivering a quality product. Ignoring one for the sake of the other can lead to a horrible experience for many of your users. However, from tooling all the way through to testing, one of these interfaces is largely seen as second-class and mostly ignored.
+ 
+ <!--more-->
  
 The two interfaces every app has are a visible UI and an accessible UI. The visible UI is what is displayed on the screen, made up of visible elements such as icons, labels, and buttons. The accessible UI is made up of accessibility elements. Accessibility elements describe the interface of an app in a machine-readable way that iOS uses to provide standard accessibility features across all apps. Some of the important information an element provides are its label, hint, and traits.
  
