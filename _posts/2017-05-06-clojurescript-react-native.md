@@ -15,4 +15,4 @@ That's not to say that absolutely everything is perfect, though. The integration
 
 I haven't completed any projects in CLJSRN yet, but I've built quite a few prototypes both for myself and my employer. Sadly, we don't have any other ClojureScript fans at the office (yet 😉), so making that sell isn't easy.
 
-More information about combining ClojureScript and React Native can be found at http://cljsrn.org.
+More information about combining ClojureScript and React Native can be found at [http://cljsrn.org](http://cljsrn.org).
