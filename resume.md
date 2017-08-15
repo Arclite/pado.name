@@ -14,7 +14,7 @@ I'm a software developer who specializes in the creation of mobile applications.
 
 ### Senior Software Engineer @ L4 Digital <span class="duration">March 2015 &ndash; Present</span>
 
-At L4 Digital, I work in small teams to deliver mobile applications for our clients. I have been the technical lead for two major projects, and have worked on small parts of several others.
+At L4 Digital, I work in small teams to deliver mobile applications for our clients. I have been the technical lead for three major projects, and have worked on small parts of several others.
 
 I provide in-house technical leadership for the iOS platform. This includes several aspects, including running a monthly meeting to discuss the latest best practices for iOS developers. I also drafted the first version of L4's coding standards for the Swift language.
 
