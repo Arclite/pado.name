@@ -12,7 +12,7 @@ I'm a software developer who specializes in the creation of mobile applications.
 
 ## Experience
 
-### Software Engineer @ L4 Digital <span class="duration">March 2015 &ndash; Present</span>
+### Senior Software Engineer @ L4 Digital <span class="duration">March 2015 &ndash; Present</span>
 
 At L4 Digital, I work in small teams to deliver mobile applications for our clients. I have been the technical lead for two major projects, and have worked on small parts of several others.
 
