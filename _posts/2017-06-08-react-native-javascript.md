@@ -3,7 +3,7 @@ layout: post
 title: React Native !== JavaScript
 date: 2017-08-06
 ---
-I've lately been working on a blog post for [my employer](https://l4digital.com) detailing the benefits and drawbacks of [React Native](https://facebook.github.io/react-native/) (coming soon). One thing that keeps coming up in my discussions with co-workers is that [a major drawback to React Native is JavaScript](https://arielelkin.github.io/articles/why-im-not-a-react-native-developer.html#javascript). But that's **not** a drawback of React Native at all.
+I've lately been working on a blog post for [my employer](https://l4digital.com) detailing the benefits and drawbacks of [React Native](https://facebook.github.io/react-native/) (found [here](https://l4digital.com/cross-compiled/)). One thing that keeps coming up in my discussions with co-workers is that [a major drawback to React Native is JavaScript](https://arielelkin.github.io/articles/why-im-not-a-react-native-developer.html#javascript). But that's **not** a drawback of React Native at all.
 
 Don't get me wrong, I hate JavaScript just as much as the next person (unless the next person is my co-worker Rob. Hi, Rob! 👋). The reason JavaScript isn't a drawback of React Native is that _you don't have to write JavaScript to use React Native_. There are plenty of better languages out there that essentially use JavaScript as a virtual machine to run on, a la the JVM. You can use these languages to target React Native, and some have explicit support _for_ React Native.
 
