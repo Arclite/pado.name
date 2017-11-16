@@ -25,4 +25,4 @@ I mentioned above that there’s an existing macOS version of Scrawl Notes, and 
 ## Next Steps
 There’s a few features I want to add to the Windows version in the near future that take advantage of the unique aspects of the Windows platform. [Ink](https://docs.microsoft.com/en-us/windows/uwp/input-and-devices/pen-and-stylus-interactions) support sounds like a fun feature that isn’t particularly easy on iOS _or_ macOS, allowing you to hand-write your notes instead of typing them. I’d also like to look into adding [Cortana](https://developer.microsoft.com/en-us/cortana) support to bring the Windows version up to snuff with the Siri support in the iOS app.
 
-Scrawl Notes for Windows is currently in certification before going to the Window Store, and I’ll update this page when it’s released.
+[Scrawl Notes for Windows](https://www.microsoft.com/store/productid/9NDHH283GFS7) is available now on the Windows Store.
