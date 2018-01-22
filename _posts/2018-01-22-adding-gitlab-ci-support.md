@@ -160,7 +160,7 @@ There you have it: a blow-by-blow recap of setting up an iOS project for GitLab 
 
 ---- 
 
-[^1]:	Majima, a library for handling three-way merges.
+[^1]:	[Majima](https://github.com/Arclite/Majima), a library for handling three-way merges.
 
 [^2]:	I mean… there’s no actual **tests** in these targets, per se. But there might be eventually!
 
