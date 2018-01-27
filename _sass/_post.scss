@@ -6,6 +6,26 @@
 	@include media($mobile) {
 		display: none;
 	}
+	
+	.license {
+		width: 80%;
+		font-size: 0.8em;
+
+		hr {
+			border: 0;
+			height: 1px;
+			background-color: #ccc;
+			margin: 1em 0;
+		}
+
+		a {
+			display: inline;
+		}
+
+		@include media($mobile) {
+			display: none;
+		}
+	}
 }
 
 .footnotes {
