@@ -14,6 +14,6 @@ title: "Blog"
 	{% endif %}
 </h2>
 <div class="entry">
-	{{ post.excerpt }}
+	{{ post.excerpt | markdownify }}
 </div>
 {% endfor %}
