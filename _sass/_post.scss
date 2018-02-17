@@ -6,26 +6,10 @@
 	@include media($mobile) {
 		display: none;
 	}
-	
-	.license {
-		width: 80%;
-		font-size: 0.8em;
+}
 
-		hr {
-			border: 0;
-			height: 1px;
-			background-color: #ccc;
-			margin: 1em 0;
-		}
-
-		a {
-			display: inline;
-		}
-
-		@include media($mobile) {
-			display: none;
-		}
-	}
+.footnote {
+	font-size: 0.8em;
 }
 
 .footnotes {
@@ -48,5 +32,26 @@ figure {
 		font-weight: 300;
 		font-size: 0.9em;
 		text-align: center;
+	}
+}
+
+.license {
+	width: 80%;
+	font-size: 0.8em;
+	font-weight: 300;
+
+	hr {
+		border: 0;
+		height: 1px;
+		background-color: #ccc;
+		margin: 1em 0;
+	}
+
+	a {
+		display: inline;
+	}
+
+	@include media($mobile) {
+		display: none;
 	}
 }

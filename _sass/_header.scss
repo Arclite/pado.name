@@ -11,7 +11,7 @@ header {
 		@include shift(1);
 	}
 
-	font-family: "Dosis", sans-serif;
+	font-family: $header_family;
 	position: relative;
 	margin-bottom: 1em;
 

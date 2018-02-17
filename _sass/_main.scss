@@ -9,8 +9,8 @@ $max-width: 720px;
 @import 'neat/neat';
 
 @import 'colors';
-@import 'header';
 @import 'type';
+@import 'header';
 
 body {
 	font-family: $body_family;
