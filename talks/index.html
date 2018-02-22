@@ -1,0 +1,15 @@
+---
+layout: talks
+style: post.css
+highlight: talks
+title: "Talks"
+---
+
+{% for talk in site.talks %}
+<h2>
+	<a href="{{ site.baseurl }}{{ talk.url }}">{{ talk.title }}</a>
+</h2>
+<div class="entry">
+	{{ talk.description | markdownify }}
+</div>
+{% endfor %}
