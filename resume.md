@@ -23,7 +23,7 @@ I also worked closely with actual newsroom staff. This resulted in my conceiving
 
 I'm a recurring speaker at Xcoders in Redmond, WA. I've given long-form talks on continuous integration and accessibility, and several short "lightning" talks on other topics.
 
-Between my jobs at Newsy and L4 Digital, I did independent consulting. My primary takeaway from this was that I shouldn't seek a career in B2B sales.
+Between my jobs at Newsy and L4 Digital, I did independent consulting, but ultimately decided it wasn't a great fit for me.
 
 I've got multiple apps in both the iOS and macOS app stores: Scrawl Notes, Scrawl Pouch, and Black Highlighter.
 
