@@ -5,33 +5,30 @@ highlight: resume
 title: Résumé
 ---
 
-
-## Profile
-
-I'm a software developer who specializes in the creation of mobile applications. I've been building iOS apps since the App Store launched in 2008, and have since shipped apps for both the Android and Windows Phone platforms as well.
-
-## Experience
+I'm a senior software developer with a focus on iOS applications.
 
 ### Senior Software Engineer @ L4 Digital <span class="duration">March 2015 &ndash; Present</span>
 
-At L4 Digital, I work in small teams to deliver mobile applications for our clients. I have been the technical lead for three major projects, and have worked on small parts of several others.
+At L4 Digital, I've worked on projects for clients both large and small. I've worked closely with clients and all members of our delivery team: project management, quality assurance, design, etc. For the largest of these (a project which spanned ten months and five developers) I was technical lead, in charge of making development design decisions.
 
-I provide in-house technical leadership for the iOS platform. This includes several aspects, including running a monthly meeting to discuss the latest best practices for iOS developers. I also drafted the first version of L4's coding standards for the Swift language.
+I'm also platform lead for the iOS platform. This entails running a monthly meeting keeping the other iOS developers at L4 up to speed on our iOS projects, teaching new techniques, and leading discussion of news in the iOS community. I took the initiative to draft L4's first coding standards for the Swift programming language, and have lead maintaining them since, through major changes to the language.
 
 ### Director of App Development @ Newsy <span class="duration"> May 2011 &ndash; May 2014</span>
 
-At Newsy, I was responsible for the development of video news applications for mobile platforms, including iOS, Android, and Windows Phone. I also built several in-house apps to improve the workflow of coworkers in other departments.
+At Newsy, I was responsible for either building or managing development of applications on all mobile and OTT platforms. This included iOS, Android, Windows, Blackberry, Roku, and more. I was the lead developer on our applications for iOS (including separate apps for iPhone and iPad) and Windows, and managed third-party vendors who built the others. I also worked closely with our web developers to define the API that all applications used to get the data they needed.
 
-As director, I worked directly with other department directors at Newsy to coordinate efforts throughout the development process. During my tenure, Newsy shipped several new applications, many major updates, and prototypes for entirely new product lines.
+I also worked closely with actual newsroom staff. This resulted in my conceiving, designing, and building of two completely custom in-house applications that massively improved the efficiency (and happiness!) of both the writers and anchors.
 
-### Founder/Developer @ Cocoatype, LLC <span class="duration">2008 &ndash; March 2015</span>
+### Other Experience
 
-In 2008, I founded Cocoatype to build consumer software applications. Doing so, I became very familiar with developing for both Mac OS X and iOS. I worked directly with top-notch designers, helping me learn how to make an app that works for users.
+I'm a recurring speaker at Xcoders in Redmond, WA. I've given long-form talks on continuous integration and accessibility, and several short "lightning" talks on other topics.
 
-Beginning in 2014, Cocoatype did mobile and web application contracting. I was responsible for everything from working with clients to determine requirements to delivering the final product.
+Between my jobs at Newsy and L4 Digital, I did independent consulting. My primary takeaway from this was that I shouldn't seek a career in B2B sales.
 
-## Skills
+I've got multiple apps in both the iOS and macOS app stores: Scrawl Notes, Scrawl Pouch, and Black Highlighter.
 
-I have significant experience with iOS application development in both Swift and Obj-C. I'm also quite familiar with server-side development in Ruby and Clojure.
+In 2010, I did an internship at Apple, where I worked with the Mac OS X System Applications team.
 
-I also have strong interpersonal skills. For most of my career, I've worked closely with people from other disciplines. I'm able to communicate technical details to non-technical people in order to reach an understanding.
+### Skills
+
+Fluent in both Objective-C and Swift. Additionally fluent in Clojure and Ruby for server-side development. Especially strong with user interface, including custom animation work. Comfortable with frameworks and design paradigms for all Apple platforms (including macOS!). Have experience with Docker and React Native.
