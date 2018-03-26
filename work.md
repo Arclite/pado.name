@@ -9,7 +9,7 @@ title: Work
 
 Scrawl Notes is an app to store temporary text content that you don't want to keep around forever. Long story short, it's a text box with a lock screen widget.
 
-I use Scrawl Notes as a developer playground to play with new OS technologies. Since initially shipping Scrawl Notes, I've continually updated it with new features, including 3D Touch, iCloud sync, Siri integration, etc. Scrawl Notes is also available on [macOS](https://geo.itunes.apple.com/us/app/scrawl/id1249895598?mt=12&at=11lrHm) and [Windows]().
+I use Scrawl Notes as a developer playground to play with new OS technologies. Since initially shipping Scrawl Notes, I've continually updated it with new features, including 3D Touch, iCloud sync, Siri integration, etc. Scrawl Notes is also available on [macOS](https://geo.itunes.apple.com/us/app/scrawl/id1249895598?mt=12&at=11lrHm) and [Windows](https://www.microsoft.com/store/apps/9NDHH283GFS7).
 
 ## [Scrawl Pouch](https://itunes.apple.com/us/app/scrawl-pouch/id1252225099?mt=8&at=11lrHm)
 
@@ -29,7 +29,7 @@ The Seattle Cancer Care Alliance (SCCA) is a union of cancer research specialist
 
 ## [Newsy](https://itunes.apple.com/us/app/newsy-video-news/id330879884?mt=8&at=11lrHm)
 
-At Newsy, I was responsible for either building or managing development of applications on all mobile and OTT platforms. This included iOS, Android, Windows, Blackberry, Roku, and more. I was the lead developer on our applications for iOS (including separate apps for iPhone and iPad) and Windows, and managed third-party vendors who built the others. I also worked closely with our web developers to define the API that all applications used to get the data they needed.
+At Newsy, I was responsible for either building or managing development of applications on all mobile and OTT platforms. This included iOS, Android, Windows, Blackberry, Roku, and more. I was the lead developer on our applications for iOS (including separate apps for iPhone and iPad) and Windows, and managed third-party vendors who built the others. I also worked closely with our web developers to define the API that all applications used to get the data they needed. 
 
 ## [WWDC Parties](https://wwdcparties.com)
 
