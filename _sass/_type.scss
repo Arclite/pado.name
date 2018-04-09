@@ -24,12 +24,16 @@ h2 {
 	color: black;
 }
 
-p, ul {
+p, ul, ol {
 	font-size: 1.1em;
 	font-weight: 300;
 	line-height: 1.5em;
 	margin-top: 0;
 	margin-bottom: 1.5em;
+}
+
+ul {
+	list-style-type: square;
 }
 
 li {

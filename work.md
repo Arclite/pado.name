@@ -11,6 +11,10 @@ Scrawl Notes is an app to store temporary text content that you don't want to ke
 
 I use Scrawl Notes as a developer playground to play with new OS technologies. Since initially shipping Scrawl Notes, I've continually updated it with new features, including 3D Touch, iCloud sync, Siri integration, etc. Scrawl Notes is also available on [macOS](https://geo.itunes.apple.com/us/app/scrawl/id1249895598?mt=12&at=11lrHm) and [Windows](https://www.microsoft.com/store/apps/9NDHH283GFS7).
 
+## [Finder](https://github.com/Arclite/Finder)
+
+Finder is an open-source app for triggering "Find My iPhone" alerts via HomePod. It uses SiriKit's [messaging intent](https://developer.apple.com/documentation/sirikit/messaging), presenting your iCloud-connected devices as "contacts". A user tells HomePod to send a message using Finder, and Finder hits a reverse-engineered iCloud API to play a sound on the requested device.
+
 ## [Scrawl Pouch](https://itunes.apple.com/us/app/scrawl-pouch/id1252225099?mt=8&at=11lrHm)
 
 Scrawl Pouch is an iPad app that provides a "shelf" to temporarily store dragged items. Inspired by [Federico Vittici's concept video](https://www.youtube.com/watch?v=UyFUDQ5LLZw), Scrawl Pouch was developed during the iOS 11 beta season and shipped alongside iOS 11's launch.
