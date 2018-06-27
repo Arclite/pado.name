@@ -7,11 +7,11 @@ title: Résumé
 
 I'm a senior software developer with a focus on iOS applications.
 
-### Senior Software Engineer @ L4 Digital <span class="duration">March 2015 &ndash; Present</span>
+### Senior Software Engineer @ L4 Digital <span class="duration">March 2015 &ndash; June 2018</span>
 
-At L4 Digital, I've worked on projects for clients both large and small. I've worked closely with clients and all members of our delivery team: project management, quality assurance, design, etc. For the largest of these (a project which spanned ten months and five developers) I was technical lead, in charge of making development design decisions.
+At L4 Digital, I worked on projects for clients both large and small. I worked closely with clients and all members of our delivery team: project management, quality assurance, design, etc. For the largest of these (a project which spanned ten months and five developers) I was technical lead, in charge of making development design decisions.
 
-I'm also platform lead for the iOS platform. This entails running a monthly meeting keeping the other iOS developers at L4 up to speed on our iOS projects, teaching new techniques, and leading discussion of news in the iOS community. I took the initiative to draft L4's first coding standards for the Swift programming language, and have lead maintaining them since, through major changes to the language.
+I was also platform lead for the iOS platform. This entailed running a monthly meeting keeping the other iOS developers at L4 up to speed on our iOS projects, teaching new techniques, and leading discussion of news in the iOS community. I took the initiative to draft L4's first coding standards for the Swift programming language, and continued to maintain them since, through major changes to the language.
 
 ### Director of App Development @ Newsy <span class="duration"> May 2011 &ndash; May 2014</span>
 
