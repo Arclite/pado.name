@@ -1,6 +1,7 @@
 ---
 layout: talk
 highlight: talks
+date: 2018-02-22
 title: Continuous Integration (February 2018)
 description: A talk about continuous integration for iOS. Goes over the basics, discusses the benefits to teams both large and small, and gives an overview of the (many) options available for iOS developers.
 ---
