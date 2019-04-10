@@ -1,0 +1,25 @@
+---
+layout: logs
+style: post.css
+highlight: logs
+title: "Development Logs"
+---
+
+{% assign sorted_logs = site.logs | sort: 'date' | reverse %}
+{% for log in sorted_logs %}
+{% assign d = log.date | date: "%-d"  %}
+
+<h2>
+	<a href="{{ site.baseurl }}{{ log.url }}">{{ log.app }} &mdash; {{ log.date | date: "%B" }} 
+        {% case d %}
+          {% when '1' or '21' or '31' %}{{ d }}st,
+          {% when '2' or '22' %}{{ d }}nd,
+          {% when '3' or '23' %}{{ d }}rd,
+          {% else %}{{ d }}th,
+        {% endcase %}
+        {{ log.date | date: "%Y" }}</a>
+</h2>
+<div class="entry">
+    {{ log.title | markdownify }}
+</div>
+{% endfor %}

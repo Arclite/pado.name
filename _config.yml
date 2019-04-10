@@ -5,11 +5,14 @@ description: > # this means to ignore newlines until "baseurl:"
   Personal website for Geoff Pado: iOS, macOS, and backend server developer.
 permalink: /blog/:year/:month/:title/
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://pado.name" # the base hostname & protocol for your site
+url: "https://pado.name" # the base hostname & protocol for your site
 
 # Collections
 collections:
   talks:
+    output: true
+    permalink: /:collection/:path/
+  logs:
     output: true
     permalink: /:collection/:path/
 

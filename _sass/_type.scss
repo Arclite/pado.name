@@ -33,7 +33,35 @@ p, ul, ol {
 }
 
 ul {
-	list-style-type: square;
+	padding-left: 1em;
+	list-style-type: none;
+
+	li:before {
+		content: "— "
+	}
+}
+
+ol {
+	padding-left: 1em;
+}
+
+dl {
+	margin-top: 0.3em;
+	margin-bottom: 1.5em;
+	display: grid;
+	grid-template-columns: max-content auto;
+}
+
+dt {
+	grid-column-start: 1;
+	text-align: right;
+}
+
+dd {
+	margin-left: 1em;
+	font-weight: 300;
+	grid-column-start: 2;
+	margin-bottom: 0.1em;
 }
 
 li {

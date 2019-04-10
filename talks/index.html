@@ -5,7 +5,7 @@ highlight: talks
 title: "Talks"
 ---
 
-{% assign sorted_talks = (site.talks | sort: 'date') | reverse %}
+{% assign sorted_talks = site.talks | sort: 'date' | reverse %}
 {% for talk in sorted_talks %}
 <h2>
 	<a href="{{ site.baseurl }}{{ talk.url }}">{{ talk.title }}</a>

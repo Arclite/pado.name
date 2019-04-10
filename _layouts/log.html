@@ -1,0 +1,14 @@
+---
+layout: logs
+---
+
+<h2>{{ page.app }} &mdash; {{ page.date | date: "%B" }} 
+    {% assign d = page.date | date: "%-d"  %}
+    {% case d %}
+      {% when '1' or '21' or '31' %}{{ d }}st,
+      {% when '2' or '22' %}{{ d }}nd,
+      {% when '3' or '23' %}{{ d }}rd,
+      {% else %}{{ d }}th,
+    {% endcase %}
+    {{ page.date | date: "%Y" }}</a></h2>
+{{ content }}
