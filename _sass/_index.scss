@@ -20,6 +20,11 @@
 		font-family: $header_family;
 		font-size: 2em;
 		margin-bottom: 0.5em;
+		color: $standard_text_color;
+
+		@media (prefers-color-scheme: dark) {
+			color: $inverse_text_color;
+		}
 	}
 
 	p {

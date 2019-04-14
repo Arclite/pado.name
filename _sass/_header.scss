@@ -17,7 +17,11 @@ header {
 
 	h1 {
 		a:hover {
-			color: black;
+			color: $standard_text_color;
+
+			@media (prefers-color-scheme: dark) {
+				color: $inverse_text_color;
+			}
 		}
 	}
 
@@ -36,20 +40,32 @@ header {
 			margin-bottom: 2px;
 			margin-left: 8px;
 			padding: 3px 0px;
-			color: black;
+			color: $standard_text_color;
 			text-decoration: none;
 			font-size: 20px;
 			font-weight: 300;
+
+			@media (prefers-color-scheme: dark) {
+				color: $inverse_text_color;
+			}
 		}
 
 		a.active {
 			margin-bottom: 0px;
-			border-bottom: 2px solid $highlight_color;
+			border-bottom: 2px solid $standard_highlight_color;
+
+			@media (prefers-color-scheme: dark) {
+				border-bottom: 2px solid $inverse_highlight_color;
+			}
 		}
 
 		a:hover {
 			margin-bottom: 0px;
-			border-bottom: 2px solid $highlight_hover;
+			border-bottom: 2px solid $standard_highlight_hover;
+
+			@media (prefers-color-scheme: dark) {
+				border-bottom: 2px solid $inverse_highlight_hover;
+			}
 		}
 
 		@include media($mobile) {
@@ -64,14 +80,22 @@ header {
 
 			a.active {
 				margin-top: 2px;
-				border-top: 2px solid $highlight_color;
+				border-top: 2px solid $standard_highlight_color;
 				border-bottom: none;
+
+				@media (prefers-color-scheme: dark) {
+					border-top: 2px solid $inverse_highlight_color;
+				}
 			}
 
 			a:hover {
 				margin-top: 2px;
-				border-top: 2px solid $highlight_hover;
+				border-top: 2px solid $standard_highlight_hover;
 				border-bottom: none;
+
+				@media (prefers-color-scheme: dark) {
+					border-top: 2px solid $inverse_highlight_hover;
+				}
 			}
 		}
 	}
@@ -83,5 +107,9 @@ header {
 
 .title {
 	margin-top: 20px;
-	border-bottom: solid 2px black;
+	border-bottom: solid 2px $standard_text_color;
+
+	@media (prefers-color-scheme: dark) {
+		border-bottom: 2px solid $inverse_text_color;
+	}
 }

@@ -1,4 +1,13 @@
-$highlight_color: #40739e;
-$highlight_hover: rgba($highlight_color, 0.4);
-$highlight_dark: darken($highlight_color, 10%);
-$highlight_light: lighten($highlight_color, 10%);
+$standard_highlight_color: #40739e;
+$standard_highlight_hover: rgba($standard_highlight_color, 0.4);
+$standard_highlight_dark: darken($standard_highlight_color, 10%);
+$standard_highlight_light: lighten($standard_highlight_color, 10%);
+$standard_background: white;
+$standard_text_color: black;
+
+$inverse_highlight_color: #5E9EC1;
+$inverse_highlight_hover: rgba($inverse_highlight_color, 0.4);
+$inverse_highlight_dark: lighten($inverse_highlight_color, 10%);
+$inverse_highlight_light: darken($inverse_highlight_color, 10%);
+$inverse_background: #2b2b2b;
+$inverse_text_color: #e6e1dc;
