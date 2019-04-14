@@ -63,6 +63,11 @@ dl {
 	margin-bottom: 1.5em;
 	display: grid;
 	grid-template-columns: max-content auto;
+	color: $standard_text_color;
+
+	@media (prefers-color-scheme: dark) {
+		color: $inverse_text_color;
+	}
 }
 
 dt {
