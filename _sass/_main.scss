@@ -13,11 +13,16 @@ $max-width: 720px;
 @import 'header';
 
 body {
+	background: $standard_background;
 	font-family: $body_family;
 	@include outer-container();
 
 	@media print {
 		margin: 0.1in 0.25in;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		background: $inverse_background;
 	}
 }
 

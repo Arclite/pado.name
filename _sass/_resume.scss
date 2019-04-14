@@ -16,8 +16,12 @@ aside {
 
 	a {
 		display: block;
-		color: $highlight_color;
+		color: $standard_highlight_color;
 		margin-bottom: 3px;
+
+		@media (prefers-color-scheme: dark) {
+			color: $inverse_highlight_color;
+		}
 	}
 
 	address {
@@ -54,6 +58,12 @@ aside {
 			font-size: 0.8em;
 			margin-left: 3px;
 			font-weight: 300;
+		}
+
+		color: $standard_text_color;
+
+		@media (prefers-color-scheme: dark) {
+			color: $inverse_text_color;
 		}
 	}
 

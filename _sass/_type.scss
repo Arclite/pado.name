@@ -5,6 +5,11 @@ h1,h2,h3 {
 	display: block;
 	margin: 0px;
 	font-weight: 400;
+	color: $standard_text_color;
+
+	@media (prefers-color-scheme: dark) {
+		color: $inverse_text_color;
+	}
 }
 
 h1 {
@@ -12,8 +17,12 @@ h1 {
 	margin-bottom: 2px;
 
 	a {
-		color: black;
+		color: $standard_text_color;
 		text-decoration: none;
+
+		@media (prefers-color-scheme: dark) {
+			color: $inverse_text_color;
+		}
 	}
 }
 
@@ -21,7 +30,6 @@ h2 {
 	font-size: 1.2em;
 	font-weight: 400;
 	line-height: 1.6em;
-	color: black;
 }
 
 p, ul, ol {
@@ -30,6 +38,11 @@ p, ul, ol {
 	line-height: 1.5em;
 	margin-top: 0;
 	margin-bottom: 1.5em;
+	color: $standard_text_color;
+
+	@media (prefers-color-scheme: dark) {
+		color: $inverse_text_color;
+	}
 }
 
 ul {
@@ -41,12 +54,20 @@ li {
 }
 
 a {
-	color: $highlight_color;
+	color: $standard_highlight_color;
 	text-decoration: none;
+
+	@media (prefers-color-scheme: dark) {
+		color: $inverse_highlight_color;
+	}
 }
 
 a:hover {
-	color: $highlight_dark;
+	color: $standard_highlight_dark;
+
+	@media (prefers-color-scheme: dark) {
+		color: $inverse_highlight_dark;
+	}
 }
 
 .highlight {
