@@ -36,7 +36,7 @@ None.
     <dt>Issues Open</dt>
     <dd>28</dd>
     <dt>Percent Complete</dt>
-    <dd>7%</dd>
+    <dd>6.7%</dd>
 </dl>
 
 ## Replay

@@ -34,7 +34,7 @@ Getting into the meat of the development, I built out the app's intro view contr
     <dt>Issues Open</dt>
     <dd>26</dd>
     <dt>Percent Complete</dt>
-    <dd>4%</dd>
+    <dd>3.7%</dd>
 </dl>
 
 

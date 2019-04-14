@@ -33,8 +33,8 @@ In this session, I brought some of the 1.x Black Highlighter design into the new
     <dt>Issues Open</dt>
     <dd>27</dd>
     <dt>Percent Complete</dt>
-    <dd>7%</dd>
+    <dd>6.9%</dd>
 </dl>
 
 ## Replay
-Coming soon.
+{% include replay.html video="K-HeOntrxd4" %}
