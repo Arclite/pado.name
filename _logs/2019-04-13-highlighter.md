@@ -6,6 +6,10 @@ app: "Black Highlighter"
 title: "Bug Bash: Unit Testing with Photo Permissions"
 ---
 
+In this session, I tried out something new: a bug bash session. In this kind of session, I'll tackle as many smaller tickets as I can in a short period. The tickets that I've tagged for hitting in bug bashes can be seen [on GitLab](https://git.pado.name/highlighter/app/issues?label_name%5B%5D=Bug+Bash). I'm planning on doing these on a fairly regular basis, but I haven't decided what cadence yet. It'll probably either be every fifth session, or every weekend session (if I only stream every other weekend, these are effectively the same).
+
+Two of the tickets I took on during this session had to do with different photo library permission states. Since it's not necessarily simple to get a device in these states, I wrote the first sets of unit tests for this app to tackle these. I extracted the photo library permission behaviors from the intro view controller into its own class, and was able to mock that class to provide different authorization statuses when running under test.
+
 ## Commits Made
 
 - [Display alert when photo library permission is denied](https://git.pado.name/highlighter/app/commit/586ae6e4eda911001b2401c20debad8b8f909685)
