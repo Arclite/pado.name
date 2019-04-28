@@ -1,6 +1,14 @@
 $header_family: "Alegreya Sans", "Helvetica Neue", sans-serif;
 $body_family: "Lato", "Helvetica Neue", "Segoe UI Light", sans-serif;
 
+::selection {
+	background: $inverse_highlight_color;
+
+	@media (prefers-color-scheme: dark) {
+		background: $standard_highlight_color;
+	}
+}
+
 h1,h2,h3 {
 	display: block;
 	margin: 0px;

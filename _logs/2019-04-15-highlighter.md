@@ -6,7 +6,7 @@ app: "Black Highlighter"
 title: "Loading Photos from the Photo Library"
 ---
 
-In this session, I finally added the view where most of the work is going to go in this app; the edit view. Now, when one of the photos in the photo library view is selected, the full-resolution photo is loaded and displayed in the editing view.
+In this session, I finally added the view where most of the work is going to go in this app: the edit view. Now, when one of the photos in the photo library view is selected, the full-resolution photo is loaded and displayed in the editing view.
 
 ## Commits Made
 
