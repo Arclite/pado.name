@@ -43,4 +43,4 @@ That's the way developing apps is sometimes: bang your head against a seemingly-
 
 ## Replay
 
-Coming soon.
+{% include replay.html %}

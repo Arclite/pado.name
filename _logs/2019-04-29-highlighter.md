@@ -39,4 +39,4 @@ None.
 
 ## Replay
 
-Coming soon.
+{% include replay.html %}

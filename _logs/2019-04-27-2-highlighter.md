@@ -50,4 +50,4 @@ The [third ticket](https://git.pado.name/highlighter/app/issues/22) was more str
 
 ## Replay
 
-Coming soon.
+{% include replay.html %}
