@@ -42,4 +42,4 @@ None.
 
 ## Replay
 
-Coming soon.
+{% include replay.html video="cw2zfgSjinw" %}
