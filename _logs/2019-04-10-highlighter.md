@@ -39,4 +39,4 @@ At the last minute, I decided to try cleaning up the design of the photo picker 
 
 ## Replay
 
-Coming soon.
+{% include replay.html video="WWKRpsOrf70" %}
