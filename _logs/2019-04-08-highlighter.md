@@ -41,4 +41,4 @@ None.
 
 ## Replay
 
-Coming soon.
+{% include replay.html video="-XCmZqBuW78" %}
