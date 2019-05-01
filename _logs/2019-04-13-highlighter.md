@@ -45,4 +45,4 @@ Two of the tickets I took on during this session had to do with different photo 
 
 ## Replay
 
-{% include replay.html %}
+{% include replay.html video="qYvm9xq1SsQ" %}
