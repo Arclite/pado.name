@@ -42,4 +42,4 @@ Identifying which characters have been selected was a little trickier. We can't 
 
 ## Replay
 
-{% include replay.html %}
+{% include replay.html video="_cytr26zrpA" %}
