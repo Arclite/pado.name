@@ -41,4 +41,4 @@ None.
 
 ## Replay
 
-{% include replay.html %}
+{% include replay.html video="2d_D2Tp0s6I" %}
