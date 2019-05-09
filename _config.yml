@@ -15,6 +15,9 @@ collections:
   logs:
     output: true
     permalink: /:collection/:path/
+  redirects:
+    output: true
+    permalink: /:path/
 
 # Build settings
 markdown: kramdown
