@@ -42,4 +42,4 @@ We're across the halfway point! Look for a beta invite link soon.
 
 ## Replay
 
-{% include replay.html %}
+{% include replay.html video="kyHQ2Lebc94" %}
