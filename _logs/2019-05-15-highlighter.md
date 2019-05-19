@@ -39,7 +39,7 @@ None.
     <dt><a href="https://git.pado.name/highlighter/app/issues?scope=all&utf8=✓&state=closed&milestone_title=2.0">Issues Closed</a></dt>
     <dd>25</dd>
     <dt><a href="https://git.pado.name/highlighter/app/issues?scope=all&utf8=✓&state=opened&milestone_title=2.0">Issues Open</a></dt>
-    <dd>13</dd>
+    <dd>11</dd>
     <dt>Percent Complete</dt>
     <dd>69.4%</dd>
 </dl>
