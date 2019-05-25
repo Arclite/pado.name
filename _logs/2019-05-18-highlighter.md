@@ -6,12 +6,16 @@ app: "Black Highlighter"
 title: "Bug Bash: UI Cleanup and App Store Lookup API"
 ---
 
+Another weekend bug bash session, mostly focused around some visual cleanup and loading the "other apps" list in the Help/Settings/About section.
 
 ## Commits Made
 
-- [Add toolbar with highlighter tool toggle button](https://git.pado.name/highlighter/app/commit/53ecedb6a63aea70f06d64d792b17726721faa38)
-- [Toggle button for current highlighter tool](https://git.pado.name/highlighter/app/commit/81e7b2d52ebae99dc96a5f52de396ba8bb5e2b9e)
-- [Draw manual brush strokes](https://git.pado.name/highlighter/app/commit/3caee14e62247f36fa4972d5e5027e09209279ee)
+- [Change color of unloaded cell from red to primaryLight](https://git.pado.name/highlighter/app/commit/9122800d4f826a95317f9a792746a9937061a892)
+- [Sort images by creation date, descending](https://git.pado.name/highlighter/app/commit/fefbc1991f262e58b5bd9ca87c740ceef191dca3)
+- [Fix Dynamic Type and fonts in navigation bar](https://git.pado.name/highlighter/app/commit/4b6e66f1a07024621eb19aa15c8cd2d61b26bdd7)
+- [Fetch list of other apps](https://git.pado.name/highlighter/app/commit/45580fbbe844899e9da83f70c812ca467ecce754)
+- [Display App Store for other apps](https://git.pado.name/highlighter/app/commit/88b68fa88a93d43c903ea147330377a9d94ab7d2)
+- [Add support for loading icons for apps](https://git.pado.name/highlighter/app/commit/0a4623876f6931ed1978176903dc9f90d6fcc0f4)
 
 ## Tickets Closed
 
