@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-04-08
 app: "Black Highlighter"
 title: "Navigation, UICollectionView, and Size Classes"
+slug: "3"
 ---
 
 In this session, I started building the photo picker for the app, where someone can choose which photo they want to edit. For now, we're just going to show all photos in a grid; eventually we'll want to provide some [additional browsing features](https://git.pado.name/highlighter/app/issues/34).

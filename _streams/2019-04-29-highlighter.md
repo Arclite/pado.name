@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-04-29
 app: "Black Highlighter"
 title: "Brush Strokes with UIBezierPath"
+slug: "12"
 ---
 
 Actual user interaction! In this session, I started drawing brush strokes based on touch feedback. This turned out to be significantly simpler than expected. I created a new view, which implemented all the touch-handling methods on `UIView`, to create and stroke a single `UIBezierPath` at a time.

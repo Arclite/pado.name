@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-04-27 05:45:00 -0700
 app: "Black Highlighter"
 title: "Bug Bash: App Icon, Scroll Views, and Settings"
+slug: "10"
 ---
 
 In this bug bash session, an immediate follow-up to [the previous session](/logs/2019-04-27-highlighter), I tried tackling three smaller tickets. However, I only succeeded with two.

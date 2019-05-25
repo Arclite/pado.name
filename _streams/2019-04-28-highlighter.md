@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-04-28
 app: "Black Highlighter"
 title: "Minisode: UIScrollView Redux"
+slug: "11"
 ---
 
 Admittedly, this session was mostly a test of Twitch streaming. It seems to have worked. Also, I finally fixed that annoying scroll view centering issue.

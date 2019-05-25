@@ -12,6 +12,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  streams:
+    output: true
+    permalink: /:collection/:path/
+  episodes:
+    output: true
+    permalink: /streams/:slug/
   logs:
     output: true
     permalink: /:collection/:path/

@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-04-10
 app: "Black Highlighter"
 title: "Loading Thumbnails From the Photo Library"
+slug: "4"
 ---
 
 In this session, I continued work on the photo picker from last session. Where that session left off, the app would display a set of squares for all of the images in the photo library. Now, the app loads a thumbnail of each photo and displays that in the cell instead. I also handle a potential pitfall when scrolling the photo picker; ensuring that the asset a cell currently represents matches the thumbnail before displaying it.

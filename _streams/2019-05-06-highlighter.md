@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-05-06
 app: "Black Highlighter"
 title: "Drawing Redactions… Kinda"
+slug: "14"
 ---
 
 Building on the excitement of last session, in this session, I started drawing lines through areas you select for redaction! Well… kinda. I draw thin green lines, not the real marker lines that users of the original Black Highlighter know and love.

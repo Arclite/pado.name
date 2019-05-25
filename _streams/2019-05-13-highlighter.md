@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-05-13
 app: "Black Highlighter"
 title: "Saving Photos to the Photo Library"
+slug: "17"
 ---
 
 A fully working app at last! The app can now handle saving an edited photo to the photo library. This completes the full app workflow from asking for photo permissions, to selecting an image to edit, to actually editing the image, and finally saving the finished image.

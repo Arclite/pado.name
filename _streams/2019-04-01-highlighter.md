@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-04-01
 app: "Black Highlighter"
 title: "Prompting for Photo Permissions"
+slug: "1"
 ---
 
 In this first session, I introduced the Black Highlighter app, went over my goals for this series, and the major update I'll be working on.

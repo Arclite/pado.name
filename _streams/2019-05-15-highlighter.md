@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-05-15
 app: "Black Highlighter"
 title: "Toolbars and Lightning: Manual Redactions"
+slug: "18"
 ---
 
 After all of the excitement of the last few sessions, it's time to slow things down a bit. During this session, I added a different way to redact items in text: the manual highlighter. Unlike the "magic" highlighter which uses the Vision framework to detect text, the manual highlighter just draws brush strokes everywhere that's been selected.

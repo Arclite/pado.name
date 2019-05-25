@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-05-01
 app: "Black Highlighter"
 title: "Character Boxes and Path Intersection"
+slug: "13"
 ---
 
 We're getting closer and closer to a real app every day now. During this session, I built up the last of the pieces needed to start actually redacting text in images: detecting individual characters, and identifying which characters have been selected for redaction.

@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-05-11
 app: "Black Highlighter"
 title: "Bug Bash: Settings, Web, and E-mail"
+slug: "16"
 ---
 
 Another long(er) weekend session. The goal today was to flesh out the settings page, putting in all of the remaining functionality as well as styling the page to look correctly. We got… most of the way there. Unfortunately, time ran out before getting to listing and presenting "other apps by this developer", leaving that to be done at a later time.

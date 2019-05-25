@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-04-22
 app: "Black Highlighter"
 title: "Mirror World Geometry"
+slug: "8"
 ---
 
 In this session, I figured out how to take the data representation of the text rectangles that were detected last time and represent them visually. A number of issues made this more difficult than first anticipated, though.

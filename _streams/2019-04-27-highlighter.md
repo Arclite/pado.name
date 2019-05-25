@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-04-27 04:30:00 -0700
 app: "Black Highlighter"
 title: "UIScrollView Lost Hours"
+slug: "9"
 ---
 
 This session is all about struggling with the weird behaviors of `UIScrollView` and Auto Layout. At the end of [the previous session](/logs/2019-04-22-highlighter), I had displayed the text observations, but they weren't scaled appropriately with the image that they were associated with. To make this work, I needed to put both the image view and the visualization view inside a scroll view, which would zoom out and display the whole image at a time.

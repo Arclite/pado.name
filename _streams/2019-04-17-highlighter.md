@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-04-17
 app: "Black Highlighter"
 title: "Vision, Operations, and Logging, Oh My!"
+slug: "7"
 ---
 
 In this session, I started digging into the actual functionality of the app. In order to start hiding stretches of text, we have to start by detecting stretches of text. The first version of Black Highlighter used `CIDetector` and `CITextFeature` to locate text in screenshots. Since that release, though, Apple has added new frameworks for detecting things in images: the Vision framework.

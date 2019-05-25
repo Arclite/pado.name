@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-05-18
 app: "Black Highlighter"
 title: "Bug Bash: UI Cleanup and App Store Lookup API"
+slug: "19"
 ---
 
 Another weekend bug bash session, mostly focused around some visual cleanup and loading the "other apps" list in the Help/Settings/About section.

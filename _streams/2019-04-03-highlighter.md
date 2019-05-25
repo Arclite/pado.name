@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-04-03
 app: "Black Highlighter"
 title: "Custom Fonts and Dynamic Type"
+slug: "2"
 ---
 
 In this session, I brought some of the 1.x Black Highlighter design into the new app. I also improved an aspect of the app that was lacking in the original version: support for Dynamic Type.

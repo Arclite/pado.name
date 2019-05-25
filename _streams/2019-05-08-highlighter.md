@@ -4,6 +4,7 @@ highlight: logs
 date: 2019-05-08
 app: "Black Highlighter"
 title: "Drawing Redactions For Real"
+slug: "15"
 ---
 
 Finally, some actual black highlighting! In this session, the app got upgraded from the thin green lines of the last stream to the marker lines we want to be seeing.
