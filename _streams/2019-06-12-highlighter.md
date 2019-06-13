@@ -1,10 +1,10 @@
 ---
 layout: log
 highlight: logs
-date: 2019-06-10
+date: 2019-06-12
 app: "Black Highlighter"
 title: "Live Stream: Happening Now"
-slug: "25"
+slug: "26"
 ---
 
 Watch this stream live and chat <a href="https://twitch.tv/geoffpado">on Twitch</a>:

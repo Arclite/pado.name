@@ -3,7 +3,7 @@ layout: log
 highlight: logs
 date: 2019-05-27
 app: "Black Highlighter"
-title: "Bug Bash: Finishing Other Apps and New Picker Features"
+title: "SpriteKit Improvements"
 slug: "23"
 ---
 
