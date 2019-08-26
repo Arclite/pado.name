@@ -91,7 +91,7 @@ dd {
 }
 
 li {
-	margin-bottom: 0.3em;	
+	margin-bottom: 0.3em;
 }
 
 a {
@@ -128,4 +128,12 @@ code {
 	font-family: "Fira Mono", monospace;
 	font-size: 0.8em;
 	line-height: 1.4em;
+}
+
+figcaption {
+	color: $standard_text_color;
+
+	@media (prefers-color-scheme: dark) {
+		color: $inverse_text_color;
+	}
 }
