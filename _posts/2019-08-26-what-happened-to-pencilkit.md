@@ -4,6 +4,11 @@ title: What Happened to PencilKit?
 date: 2019-08-26
 excerpt: Apple's latest release notes ask developers to refrain from attempting to submit apps linking PencilKit to the App Store. What’s the story here? Why are developers asked not to submit apps linking PencilKit?
 ---
+
+Between me making this post and actually telling anyone about it, Apple flipped the script on me again with the new iOS 13.1 release notes. Please see [this post](/blog/2019/08/seriously-what-is-happening-with-pencilkit/) for more details.
+
+-----
+
 > If your app links PencilKit, please refrain from attempting to submit it to the App Store until further notice. (53811027)
 
 That’s the message included in the release notes for iOS beta 8, released last Wednesday[^1]. What’s the story here? Why are developers asked not to submit apps linking PencilKit?
