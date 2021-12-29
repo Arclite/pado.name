@@ -5,30 +5,32 @@ highlight: resume
 title: Résumé
 ---
 
-I'm a senior software developer with a focus on iOS applications.
+I'm a highly-experienced mobile developer with a focus on iOS applications.
+
+### Software Engineer III @ Rover <span class="duration">June 2018 &ndash; Today</span>
+
+At Rover, I work on the developer platform, focused primarily on mobile. My role is to improve the developer experience for Rover's other mobile developers. For example, I cut our iOS test run times from almost two hours to just under 30 minutes. I've also helped build and define components for our design system, to help make the Rover app a more consistent experience for both developers and users.
+
+A major project I took on was the improvement of our mobile release process. When I joined, releases took a whole day to perform, which made releases rare and unpredictable. Under my leadership, releases are now mostly automated, and performed on a regular two-week (soon to be weekly) schedule. 
 
 ### Senior Software Engineer @ L4 Digital <span class="duration">March 2015 &ndash; June 2018</span>
 
-At L4 Digital, I worked on projects for clients both large and small. I worked closely with clients and all members of our delivery team: project management, quality assurance, design, etc. For the largest of these (a project which spanned ten months and five developers) I was technical lead, in charge of making development design decisions.
+At L4 Digital, I worked on mobile projects for clients, communicating closely with them and all members of our delivery team. For one large project which spanned ten months and five developers, I was technical lead, in charge of making development design decisions.
 
-I was also platform lead for the iOS platform. This entailed running a monthly meeting keeping the other iOS developers at L4 up to speed on our iOS projects, teaching new techniques, and leading discussion of news in the iOS community. I took the initiative to draft L4's first coding standards for the Swift programming language, and continued to maintain them since, through major changes to the language.
+I was also platform lead for the iOS platform. This involved keeping other developers updated on current projects, teaching new techniques, and leading discussion of news in the iOS community. I drafted L4's first coding standards for the Swift programming language and maintained them through major changes to the language.
 
 ### Director of App Development @ Newsy <span class="duration"> May 2011 &ndash; May 2014</span>
 
-At Newsy, I was responsible for either building or managing development of applications on all mobile and OTT platforms. This included iOS, Android, Windows, Blackberry, Roku, and more. I was the lead developer on our applications for iOS (including separate apps for iPhone and iPad) and Windows, and managed third-party vendors who built the others. I also worked closely with our web developers to define the API that all applications used to get the data they needed.
+At Newsy, I was responsible for either building or managing development of apps on approximately 10 mobile and OTT platforms. I was the lead developer on our apps for iPhone, iPad, and Windows. I managed external vendors who built the others, including defining the API that all apps used.
 
-I also worked closely with actual newsroom staff. This resulted in my conceiving, designing, and building of two completely custom in-house applications that massively improved the efficiency (and happiness!) of both the writers and anchors.
+I also worked closely with newsroom staff, which resulted in the creation of two in-house apps that improved the efficiency (and happiness!) of writers and anchors.
 
 ### Other Experience
 
-I'm a recurring speaker at Xcoders in Redmond, WA. I've given long-form talks on continuous integration and accessibility, and several short "lightning" talks on other topics.
+I'm a host for the Xcoders iOS developer meetup in Redmond, WA, where I've given long-form talks on continuous integration and accessibility, and several short "lightning" talks on other topics.
 
-Between my jobs at Newsy and L4 Digital, I did independent consulting, but ultimately decided it wasn't a great fit for me.
-
-I've got multiple apps in both the iOS and macOS app stores: Scrawl Notes, Scrawl Pouch, and Black Highlighter.
-
-In 2010, I did an internship at Apple, where I worked with the Mac OS X System Applications team.
+On the side, I develop my own personal apps; I currently have five apps in the App Store. I live-stream my development of these apps on Twitch, interacting with others who are interested in mobile development.
 
 ### Skills
 
-Fluent in both Objective-C and Swift. Additionally fluent in Clojure and Ruby for server-side development. Especially strong with user interface, including custom animation work. Comfortable with frameworks and design paradigms for all Apple platforms (including macOS!). Have experience with Docker and React Native.
+Expert in both Objective-C and Swift. Comfortable with frameworks and design paradigms for all Apple platforms (including macOS!). Experience with Docker and Kubernetes for server deployment. Familiar with development in React Native. Other known languages include Ruby, Clojure, C#, TypeScript, and Kotlin.
