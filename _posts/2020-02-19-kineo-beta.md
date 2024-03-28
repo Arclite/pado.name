@@ -2,7 +2,7 @@
 layout: post
 title: "Kineo Open Beta"
 date: 2020-02-19
-excerpt: tl;dr&colon; go join the [Kineo beta](https://kineo.app/beta)
+excerpt: "tl;dr: go join the [Kineo beta](https://kineo.app/beta)"
 ---
 
 In August of 2008, just a few weeks after the initial launch of the App Store, I (along with designer Ollie Wagner) released an animation app called Kineo. It wasn’t my first self-published app[^1], or even my first iOS app[^2], but it’s the one I most associate with the idea of my "first app". Ollie and I maintained it for a few years, but eventually college took up more and more of my time, and we shipped the last update to Kineo on April 1st, 2010[^3].
