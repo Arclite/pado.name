@@ -11,3 +11,7 @@ A brief lightning talk on PythonKit, a way to embed Python code into a Swift app
 ### Artifacts
 [Slides (PDF)](slides.pdf)  
 [Slides (Keynote)](slides.key)
+
+### Links
+[PythonKit](https://github.com/pvieito/PythonKit)  
+[Snakes on Airplane Mode by Łukasz Langa](https://www.youtube.com/watch?v=gznPQpZH1Yc)
