@@ -54,12 +54,8 @@ p, ul, ol {
 }
 
 ul {
-	padding-left: 1em;
-	list-style-type: none;
-
-	li:before {
-		content: "— "
-	}
+	padding-left: 0;
+	list-style-type: "– ";
 }
 
 ol {

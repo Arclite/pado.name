@@ -18,7 +18,7 @@ body {
 	@include outer-container();
 
 	@media print {
-		margin: 0.1in 0.25in;
+		margin: 0.125in 0.5in 0 0.5in;
 	}
 
 	@media (prefers-color-scheme: dark) {
