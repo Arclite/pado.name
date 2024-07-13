@@ -1,13 +1,31 @@
-$standard_highlight_color: #40739e;
-$standard_highlight_hover: rgba($standard_highlight_color, 0.4);
-$standard_highlight_dark: darken($standard_highlight_color, 10%);
-$standard_highlight_light: lighten($standard_highlight_color, 10%);
-$standard_background: white;
-$standard_text_color: black;
+$main100: #bbe1fb;
+$main200: #97cdf2;
+$main300: #78b8e3;
+$main400: #5ea1cf;
+$main500: #498ab6;
+$main600: #3073a6;
+$main700: #1d588c;
+$main800: #0e4071;
+$main900: #04264e;
 
-$inverse_highlight_color: #5E9EC1;
-$inverse_highlight_hover: rgba($inverse_highlight_color, 0.4);
-$inverse_highlight_dark: lighten($inverse_highlight_color, 10%);
-$inverse_highlight_light: darken($inverse_highlight_color, 10%);
-$inverse_background: #2b2b2b;
-$inverse_text_color: #e6e1dc;
+$gray100: #f8fafb;
+$gray200: #d2dde4;
+$gray300: #afbfcb;
+$gray400: #8ea1af;
+$gray500: #6F8390;
+$gray600: #556877;
+$gray700: #3C4E5D;
+$gray800: #24303D;
+$gray900: #10161E;
+
+$standard_highlight_color: $main700;
+$standard_highlight_hover: $main200;
+$standard_highlight_dark: $main900;
+$standard_background: $gray100;
+$standard_text_color: $gray900;
+
+$inverse_highlight_color: $main500;
+$inverse_highlight_hover: $main200;
+$inverse_highlight_dark: $main300;
+$inverse_background: $gray900;
+$inverse_text_color: $gray200;
