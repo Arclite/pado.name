@@ -7,7 +7,7 @@ title: Résumé
 
 I'm a passionate mobile developer with over 15 years of experience building for Apple platforms. I work with teams of all sizes and skills to create and maintain high-quality, user-centric apps.
 
-### Software Engineer III @ Chewy <span class="duration">May 2022 &ndash; Today</span>
+### Software Engineer III @ Chewy <span class="duration">May 2022 &ndash; June 2024</span>
 
 - Led the team that built Chewy's design system on iOS and Android, working directly with design partners to provide shared UI components to feature teams.
 - Performed regular 1-on-1 mentoring with several junior devs and senior Android devs looking to improve their iOS knowledge.
