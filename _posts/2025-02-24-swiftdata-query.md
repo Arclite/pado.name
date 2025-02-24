@@ -1,20 +1,20 @@
 ---
 layout: post
 title: "Separating Concerns in SwiftData Models, or: @Query Considered Harmful"
-date: 2025-02-15
+date: 2025-02-24
 ---
 
-Over the year-and-change since its release, I've watched several developer friends abandon SwiftData in frustration, finding it buggy and unreliable. Meanwhile, I've found it to be a key part of my app's architecture, and I can't imagine going back. Am I just a 10x developer and everyone else needs to git gud? 🤔 No, of course not. But I think my experience, compared to others’, comes down to one key difference: I completely avoided using `@Query`, and everyone else should, too.
+Over the year-and-change since its release, I've watched several developer friends abandon SwiftData in frustration, finding it buggy and unreliable. However, I've found it to be a key part of my app's architecture, and I can't imagine going back. Is it that I'm a 10x developer, and everyone else just needs to git gud? 🤔 No, of course not. But I think my experience, compared to others’, comes down to one key difference: I completely avoided using `@Query`, and **everyone else should, too**.
 
 ### Separation of Concerns
 
 A long-standing principle of software design is "[separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)”: the idea that a given chunk of code, such as a Swift type, should only be **concern**ed with a single concept. If a type has to handle multiple responsibilties, it becomes fragile. For every change you make, you have to be sure that you aren’t interfering with any of the type's other responsibilities. Separating concerns (also known as "encapsulation”) gives code a smaller surface area, which makes it easier to understand, reuse, and test.
 
-`@Query`'s core issue is that it takes this principle and chucks it right out the window. In case you're not familiar, `@Query` is a property wrapper that lets you directly access and monitor data stored with SwiftData as a computed property. You define the data you want (the actual "query" of `@Query`), add it to a SwiftUI view, and SwiftData handles fetching that data and keeping it up to date. In Apple's sample code and WWDC videos, this sounds super convenient! Underneath, though, there's a hidden issue. Your view now has two concerns: displaying your interface **and** managing your persistent storage.
+`@Query`'s core issue is that it takes this principle and chucks it right out the window. In case you're not familiar, `@Query` is a property wrapper that lets you directly access and monitor data stored with SwiftData as a computed property. You define the data you want (the actual "query" of `@Query`), add it to a SwiftUI view, and SwiftData handles fetching that data and keeping it up to date. In Apple's sample code and WWDC videos, this sounds incredibly convenient! Secretly, though, it's introduced a rot within your code. Your view now has two concerns: displaying your interface **and** managing your persistent storage.
 
 ### Not Just Academic
 
-Okay, so it violates some ancient “best practice”. Who cares? Let’s check out a example where this actually helps. Say you’re building a task app. For the first version, you just provide a simple list for people to add items to:
+Okay, so it violates some ancient “best practice”. Who cares? Let’s check out a example where this is a problem. Say you’re building a task app. For the first version, you just provide a simple list for people to add items to:
 
 ```swift
 @Model
@@ -167,15 +167,15 @@ struct TasksRepository {
 
 Having a type for this gives you much more flexibility with your data access than `@Query` does. You can manage concurrency better (this type could be an actor instead of the example struct), you can pre-sort all your results instead of having to sort them in each view, you can provide functions with simple parameters to ease the creation of complex filters… the sky's the limit!
 
-When you’re using your own types instead of `@Query`, you also gain a lot of simplicity in setting up your views for various circumstances. Building SwiftUI previews becomes easier, as you can either pass in your view models directly, or create stub versions of your manager that you can pass in instead of creating empty model contexts. You can swap in those stubs for unit or snapshot tests of your views, which makes those tests more stable. You can have a build flag that swaps out your storage manager for one with a bunch of example data that is known to cause a bug you're debugging, or example data you use to create App Store screenshots.
+When you’re using your own types instead of `@Query`, you also gain a lot of simplicity in setting up your views for various circumstances. Building SwiftUI previews becomes easier, as you can either pass in your view models directly, or create stub versions of your storage manager that you use instead of creating empty model contexts. You can swap in those stubs for unit or snapshot tests of your views, making those tests more stable. You can have a build flag that swaps out your storage manager for one with a set of data that triggers a bug you're investigating, or example data you use in your App Store screenshots.
 
-Heck, if after all this, you finally just decide you still hate SwiftData, you can even replace the whole thing with something else, and avoid having to rewrite all your views.
+Heck, if after all this, you finally just decide you still hate SwiftData, you can completely replace the whole thing with something else, and avoid having to rewrite all your views.
 
 ### Just Say No
 
 `@Query` makes your views fragile. It makes your views inflexible. It ties your views permanently to SwiftData. It adds friction to every step of development. It looks shiny and convenient in WWDC slides, but that luster wears off quickly.
 
-Using view models and a single type for managing SwiftData[^rest_api] avoids all that for a small upfront cost. It’s worth it.
+Using view models and a single type for managing SwiftData[^rest_api] avoids all of that for a small upfront cost. It’s worth it.
 
 ### Footnotes
 
